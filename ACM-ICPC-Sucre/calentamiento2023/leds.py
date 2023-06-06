@@ -1,20 +1,36 @@
-def calcular_leds(hh, mm):
-    digitos = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]
-    hora = hh * 100 + mm
-    leds = sum(digitos[int(digito)] for digito in str(hora))
-    max_leds = int('1' * (leds // 2))
-    return leds, hora, max_leds
+DIGITOS = {
+    '0': 6,
+    '1': 2,
+    '2': 5,
+    '3': 5,
+    '4': 4,
+    '5': 5,
+    '6': 6,
+    '7': 3,
+    '8': 7,
+    '9': 6
+}
+
+
+def calcular_leds(hora: str) -> str:
+    cantidad_leds = 0
+    for i in hora:
+        cantidad_leds += DIGITOS[i]
+        
+    if cantidad_leds % 2 == 0:
+        return cantidad_leds, hora, '1' * (cantidad_leds // 2)
+    maximo = '7'+'1' * (cantidad_leds // 2-1)
+    return cantidad_leds, hora, maximo
 
 
 n = int(input())
-aux = []
+horas = []
 for _ in range(n):
-    hh, mm = map(int, input().split())
-    aux.append([hh, mm])
-    
-for i in aux:
-    hh, mm = i
-    leds, hora, max_leds = calcular_leds(hh, mm)  # Calcular resultados
+    hh, mm = input().split()
+    horas.append(hh+mm)
+
+for i in horas:
+    leds, hora, max_leds = calcular_leds(i)
     print(leds)
     print(hora)
     print(max_leds)
