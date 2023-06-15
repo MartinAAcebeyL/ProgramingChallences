@@ -1,6 +1,5 @@
-def encontrar_carta_faltante(cartas):
-    n = len(cartas) + 1
-    suma_total = sum(range(1, n+1))
+def encontrar_carta_faltante(cantidad: int, cartas: list) -> int:
+    suma_total = sum(range(1, cantidad))
     suma_actual = sum(cartas)
 
     carta_faltante = suma_total - suma_actual
@@ -11,5 +10,4 @@ if __name__ == "__main__":
     cantidad = int(input())
     cartas = list(map(int, input().split()))
 
-    carta_faltante = encontrar_carta_faltante(cartas)
-    print(carta_faltante)
+    print(encontrar_carta_faltante(cantidad, cartas))
