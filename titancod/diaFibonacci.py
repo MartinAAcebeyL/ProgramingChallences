@@ -13,14 +13,9 @@ for i in range(N + 1):
     cadena += str(fibonacci(i))
 
 if __name__ == "__main__":
-    aux = []
-    for _ in range(4):
-        m, d = list(map(str, input().split()))
-        target = m + d
-        aux.append(target)
-    for i in aux:
-        if i in cadena:
-            print("SI")
-        else:
-            print("NO")
-        
+    m, d = list(map(str, input().split()))
+    target = m + d
+    if target in cadena:
+        print("SI")
+    else:
+        print("NO")
