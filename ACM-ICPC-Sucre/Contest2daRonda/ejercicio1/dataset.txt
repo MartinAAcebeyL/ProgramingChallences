@@ -1,0 +1,30 @@
+Input: IOIIAVKO
+Output: Kevin 31
+
+Input: AOEVEMPPEGLAMEN
+Output: Kevin 66
+
+Input: URGOAOEYILUTEQW
+Output: Kevin 72
+
+Input: AXAUU
+Output: Kevin 11
+
+Input: POEOIFIWAQ
+Output: Kevin 36
+
+Input: LIXQOEUB
+Output: Stuart 20
+
+Input: CWGWUEDONTU
+Output: Stuart 48
+
+Input: XHGAAYAUII
+Output: Stuart 32
+
+Input: XOEIAXUAUIMIYL
+Output: Kevin 75
+
+Input: EFOOEAI
+Output: Kevin 22
+
