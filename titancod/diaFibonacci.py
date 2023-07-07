@@ -1,7 +1,7 @@
 import sys
 
 
-def fibonacci(numero: int = 30) -> str:
+def fibonacci(numero: int = 30) -> int:
     if numero == 0:
         return 0
     elif numero == 1:
@@ -27,5 +27,3 @@ if __name__ == "__main__":
             print("SI")
         else:
             print("NO")
-
-        
