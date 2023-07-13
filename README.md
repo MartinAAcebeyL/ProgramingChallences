@@ -4,7 +4,7 @@ This repository contains solutions to programming challenges from different sour
 * [OmegaUp](https://omegaup.com/profile/Martin_Andres_Acebey_Laime/)
 * [HackerRank](https://www.hackerrank.com/martinaacbyl2000?hr_r=1)
 * [HackerEarth](https://www.hackerearth.com/@martinaacbyl2000) 
-* [titancod](https://www.titancod.net/) (Username: `martin2000`)
+* [titancod](https://www.titancod.net/usuario/martin2000)
 * [pywombat](https://pywombat.com/my/exercises/)(Username: `martin_conding`)
 
 
