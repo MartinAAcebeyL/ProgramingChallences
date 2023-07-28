@@ -14,9 +14,9 @@ def calculate_speed(speed: list, travel: list) -> float:
 
 
 if __name__ == "__main__":
-    test_cases = [int(i) for i in input().split()]
+    test_cases = int(input())
 
-    for test_case in test_cases:
+    for test_case in range(test_cases):
         speed_travel = [int(i) for i in input().split()]
         travel = [int(i) for i in input().split()]
 
