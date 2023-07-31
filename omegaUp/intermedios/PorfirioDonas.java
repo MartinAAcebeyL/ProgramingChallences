@@ -21,7 +21,6 @@ class PorfirioDonas {
     }
 
     public static String seRealizaraFiesta(int A, int B, int numero) {
-        // 5 10
         if (numero < A && numero < B)
             return "No";
         while (numero >= A || numero >= B) {
