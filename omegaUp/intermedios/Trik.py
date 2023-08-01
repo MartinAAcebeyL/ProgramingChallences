@@ -1,4 +1,4 @@
-
+# url: https://omegaup.com/arena/problem/vrl/
 
 if __name__ == "__main__":
     jugadas = input()
