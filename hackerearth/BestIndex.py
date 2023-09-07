@@ -12,7 +12,6 @@ def sumatoria(indice: int) -> int:
 may = 0
 for i in range(N):
     suma = sumatoria(i)
-    print(suma)
     if suma > may:
         may = suma
 print(may)
