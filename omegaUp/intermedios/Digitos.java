@@ -1,5 +1,5 @@
 
-// url: 
+// url: https://omegaup.com/arena/problem/digitos/
 import java.util.Scanner;
 
 public class Digitos {
@@ -20,9 +20,9 @@ public class Digitos {
 
         int index_N_array = 0;
         int index_inicio = 0;
-
+        int longitud_N_array = N_array.length;
         for (int i = 0; i < cadena.length; i++) {
-            if (index_N_array < N_array.length && cadena[i] == N_array[index_N_array]) {
+            if (index_N_array < longitud_N_array && cadena[i] == N_array[index_N_array]) {
                 System.out.print(cadena[i] + "---" + N_array[index_N_array] + " ");
                 index_N_array++;
                 index_inicio = i + 1;
@@ -30,12 +30,12 @@ public class Digitos {
             } else {
                 index_N_array = 0;
             }
-            if (index_N_array >= N_array.length) {
+            if (index_N_array >= longitud_N_array) {
                 break;
             }
         }
 
-        System.out.println(index_inicio - N_array.length + 1);
+        System.out.println(index_inicio - longitud_N_array + 1);
 
         sc.close();
     }
