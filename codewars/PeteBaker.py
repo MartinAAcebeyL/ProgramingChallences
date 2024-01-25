@@ -1,8 +1,5 @@
-recipe = {"flour": 500, 'sugar': 200, 'eggs': 1}
-available = {"flour": 1200, 'sugar': 1200, 'eggs': 5, "milk": 200}
-
-# {'cream': 1, 'flour': 3, 'sugar': 1, 'milk': 1, 'oil': 1, 'eggs': 1}
-# {'cream': 1, 'flour': 3, 'sugar': 1, 'milk': 1, 'oil': 1, 'eggs': 1 }
+recipe = {"flour": 500, "sugar": 200, "eggs": 1}
+available = {"flour": 1200, "sugar": 1200, "eggs": 5, "milk": 200}
 
 
 def cakes(recipe, available):
