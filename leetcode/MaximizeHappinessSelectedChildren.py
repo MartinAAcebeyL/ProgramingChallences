@@ -4,14 +4,11 @@ from typing import List
 
 def maximumHappinessSum(happiness: List[int], k: int) -> int:
     happiness.sort(reverse=True)
-    index = 0
-    counter = 0
+    index, counter = 0, 0
     for _ in range(k):
-        if happiness[index] - index >= 1:
+        if happiness[index] - index > 0:
             counter += happiness[index] - index
-        else:
-            counter += happiness[index]
-        index += 1
+            index += 1
     return counter
 
 
