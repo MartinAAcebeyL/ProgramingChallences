@@ -43,3 +43,4 @@ a = solution.doubleIt(nodes)
 while a:
     print(a.val)
     a = a.next
+
